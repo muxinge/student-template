@@ -99,6 +99,69 @@ git push origin LX-WY-submission
 4. Add any comments about your submission
 5. Click "Create pull request"
 
+## Receiving Updates Throughout the Course
+
+As the course progresses, we'll add new materials for upcoming weeks (Week 2, Week 3, etc.). You'll need to update your repository to get these new materials. Here's how:
+
+### Option 1: Using GitHub Web Interface (Easiest Method)
+
+1. Navigate to your repository on GitHub
+2. Look for the message that says "This branch is X commits behind Traders-SMU:main"
+3. Click on "Sync fork" near the top of the page
+4. Click "Update branch" to get the latest changes
+5. Once updated online, pull the changes to your local repository:
+   - In GitHub Desktop: Click "Fetch origin" then "Pull origin"
+   - In Git command line: Run `git pull origin main`
+
+### Option 2: Using Git Command Line (More Control)
+
+First time setup (only do this once):
+```bash
+# Add the original repository as an "upstream" remote
+git remote add upstream https://github.com/Traders-SMU/student-template.git
+```
+
+Whenever you need to get updates:
+```bash
+# Make sure you're on your main branch
+git checkout main
+
+# Get the latest changes from the original repository
+git fetch upstream
+
+# Merge those changes into your local repository
+git merge upstream/main
+
+# Push the updated content to your GitHub repository
+git push origin main
+```
+
+### Handling Merge Conflicts
+
+If you've modified files that were also updated in the original repository, you might see a "merge conflict." This happens when Git can't automatically determine which changes to keep.
+
+If you encounter merge conflicts:
+
+1. Look for files marked as conflicted in GitHub Desktop or listed in the command line output
+2. Open these files in a text editor - you'll see sections marked with `<<<<<<<`, `=======`, and `>>>>>>>`
+3. Edit the file to keep the changes you want (remove the marker lines and unwanted content)
+4. Save the file
+5. Mark the conflict as resolved:
+   - In GitHub Desktop: Right-click the file and select "Mark as resolved"
+   - In Git command line: Run `git add <filename>` for each resolved file
+6. Complete the merge:
+   - In GitHub Desktop: Click "Commit merge"
+   - In Git command line: Run `git commit`
+
+If you're unsure how to resolve conflicts, reach out to your instructor for assistance.
+
+### When to Update Your Repository
+
+We recommend checking for updates:
+- At the beginning of each week
+- Whenever an announcement is made about new materials
+- If you encounter references to files that don't exist in your repository
+
 ## Common Issues and Solutions
 
 ### "Fatal: Repository not found" Error
@@ -120,6 +183,12 @@ If your changes aren't appearing on GitHub:
 - Make sure you've pushed your changes (`git push`)
 - Check that you're on the correct branch
 
+### "Updates were rejected" Error
+
+This usually means there are changes on GitHub that you don't have locally.
+- Pull the latest changes first: `git pull origin main`
+- Then try pushing again
+
 ## Getting Help
 
 If you encounter any issues:
@@ -137,5 +206,16 @@ If you encounter any issues:
 - **Pull**: Downloading changes from the remote repository to your local copy
 - **Branch**: A separate version of the repository for development
 - **Pull Request (PR)**: A request to merge changes from one branch into another
+- **Fork**: A copy of a repository that you manage
+- **Upstream**: The original repository that you created your copy from
+- **Merge**: Combining changes from different sources
+- **Merge Conflict**: When Git can't automatically combine changes
 
 Remember, everyone starts somewhere with Git! Don't be afraid to ask questions if you get stuck.
+
+```bash
+# After downloading or creating the new files
+git add L1/Week2/
+git commit -m "Add Week 2 materials"
+git push origin main
+```
