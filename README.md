@@ -1,4 +1,4 @@
-# Learning Path Repository
+# Learning Path Repository - Traders@SMU Alpha Program
 
 Welcome to your learning journey! This repository is structured to guide you through a progressive learning path with organized materials, exercises, and projects.
 
