@@ -6,48 +6,33 @@
 
 ## 1. Background in Quantitative Finance
 
-*In this section, describe your current background in quantitative finance. This could include:*
-- *Relevant coursework or degrees*
-- *Previous internships or jobs*
-- *Personal projects or research*
-- *Trading experience (if any)*
-- *What sparked your interest in quant finance*
+courses: algorithms, data structures, linear algebra, calculus I & II, financial management, financial economics, money and banking, financial & managerial accounting
+programming languages: python, C++, R
+experience: started doing long term stock investments since Dec 2023.
+sidenote: I'm also in a machine learning & data science bootcamp right now which teaches me python skills, AI fundamentals, math & stats fundamentals about AI, and I will do a few projects after my learning.
 
-*Delete these instructions and write 100-150 words*
+Since the birth of Chat GPT, I've always wanted to utilise machine learning techniques to improve investment decisions. Particularly, I want to create an AI model that can predict stock prices at a satisfactory success rate. Obviously, this goal is very much overlapped with quantitative finance, so why quant? It's my ideal.
+
 
 ## 2. Career Goals
 
-*In this section, outline your short and long-term career goals. Be specific about:*
-- *What roles or positions interest you*
-- *Which companies or types of firms you'd like to work for*
-- *Specific areas of finance you want to specialize in*
-- *What you hope to achieve in 1, 5, and 10 years*
-
-*Delete these instructions and write 100-150 words*
+I think I talked a little bit about it in the previous section. To complete my career goal, I envision to first get an internship at a quant company. It doesn't have to be a specific one because I want to explore the field, so just the big-name ones will work, like Citadel, JaneStreet etc. But after I graduate, I do see myself either doing trading or AI engineering, reason being the former gives me hands-on experience for stock predictions and the latter provides me with model building skills. Then, I plan to start my own AI company after I accumulate enough experience. But there is also one important premise for owning a company in the US, given my international identity: a green card. So I'll have to either make 5 million dollars or marry an American girl.
 
 ## 3. What I Hope to Learn from This Program
 
-*In this section, describe what specific knowledge, skills, or experiences you hope to gain from the Alpha Program:*
-- *Technical skills (programming, math, statistics)*
-- *Financial concepts and trading strategies*
-- *Specific tools or platforms*
-- *Networking opportunities*
-- *How this program fits into your overall learning path*
+Because I already learned some machine learning knowledge and python basics, I expect to gain less about these and more about finance concepts. Also, I'm not a finance major, which makes me in a more serious demand for them. Aside from the academics, I also want to gain professional experience and networking skills from the events and panels Traders hosts throughout the semester. Because my final objective is to get into the quant field, I'd most eagerly learn about how to get an internship in prestigious quant companies.
 
-*Delete these instructions and write 100-150 words*
 
 ## 4. Current Technical Skills
 
 *In this section, honestly assess your current technical skills. Rate yourself (Beginner/Intermediate/Advanced) in:*
-- *Programming languages (Python, R, etc.)*
-- *Data analysis tools*
-- *Statistical analysis*
-- *Financial modeling*
-- *Machine learning*
-- *Version control (Git)*
-- *Other relevant skills*
-
-*Delete these instructions and write 75-100 words*
+Programming languages: beginner to intermediate as I have a bit of knowledge
+Data analysis tools: beginner
+Statistical analysis: beginner to intermediate, taught by the bootcamp
+Financial modeling: beginner
+Machine learning: beginner to intermediate, taught by the bootcamp
+Version control (Git): beginner to intermediate, I have a little previous experience
+Math: intermediate, I have relevant knowledge and math intuition
 
 ## 5. Development Plan & Program Goals
 
@@ -59,6 +44,8 @@
 - *Your definition of success for this program*
 
 *Delete these instructions and write 100-150 words*
+
+I'd like to acquire skills that can prepare me 70% for a quant internship because I can assure that I'll get the rest 30% from my bootcamp. But I do want to create a synergy by combining skills I got from the bootcamp and Traders. And because this semester will be my first time doing a quant project, I actually want to do something cool and outstanding. I plan to devote some extra time each week because I have the need for internship, but also I think it's unlikely to find one just by myself. So, I'd utilise the career resources Traders provides. Actually, I already applied to the Citadel Early Insights Program. I think it's a success to me if I pull together a cool thing for the final project and elevate to L2 Quant next semester. I don't think internship can be the sole measure for if I'm doing well in the programme. Learning quant knowledge, communicating with my fellow junior quants, and doing project with them is already a success in it self.
 
 ---
 
